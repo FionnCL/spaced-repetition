@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black-pastelle);
+    color: var(--white-pastelle);
+    padding: 0 1rem;
+}
+
+.header--h1 {
+}
+
+
+.header--buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.header--buttons > button {
+    border-radius: 25px;
+    border-style: none;
+    height: 50px;
+    width: 50px;
+}

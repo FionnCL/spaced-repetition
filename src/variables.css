@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('Inter'), local('Inter'),
+        url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap')
+        format('truetype');
+}
+
+:root {
+    --main-font: 'Ubuntu';
+    --black-pastelle: #1d1d1d;
+    --white-pastelle: #f4f4f4;
+    --purple-pastelle: #dcd5fe;
+    --orange-pastelle: #fddeb2;
+    --green-pastelle: #e4f8dd;
+    --red-pastelle: #f9cdcc;
+    --white-solid: #ffffff;
+}

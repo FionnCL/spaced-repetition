@@ -1,0 +1,9 @@
+.card {
+    background-color: var(--white-solid);
+    box-shadow: var(--black-pastelle) 10px 10px;
+    padding: 1rem;
+}
+
+.card--text {
+    color: var(--black-pastelle);
+}

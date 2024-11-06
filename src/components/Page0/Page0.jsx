@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { content } from '../../content';
 
 import Card from '../Card/Card';
 
@@ -15,17 +16,22 @@ export default function Page0() {
         <div className='page'>
             <div className='grid'>
                 <div style={{
-                    gridColumnStart: 1, gridColumnEnd: 5,
-                    gridRowStart: 3, gridRowEnd: 4
+                    gridColumn: 1,
+                    textAlign: 'center', color: 'var(--black-pastelle)'
                 }}> 
-                    <Card/> 
+                    <h1 style={{
+                        borderBottomStyle: 'solid',
+                        borderBottomWidth: '2px',
+                        borderBottomColor: 'var(--black-pastelle)',
+                        paddingBottom: '2rem'
+                    }}>Introduction</h1> 
                 </div>
-        
                 <div style={{
-                    gridColumnStart: 4,
-                    gridRowStart: 2
+                    gridColumn: 1,
+                    textAlign: 'center', color: 'var(--black-pastelle)'
                 }}> 
-                    <Card/> 
+                    <Card content={content.introduction0}/>
+                    <Card content={content.introduction1}/>
                 </div>
             </div>
         </div>

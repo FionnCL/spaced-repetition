@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 8vh;
     background-color: var(--black-pastelle);
     color: var(--white-pastelle);
     padding: 0 1rem;

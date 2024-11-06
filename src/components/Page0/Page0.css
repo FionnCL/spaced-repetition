@@ -1,5 +1,4 @@
 .page {
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 4rem;
@@ -8,7 +7,10 @@
 
 .grid {
     display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 65vh;
+    grid-template-areas: 
+        "head0 head1"
+        "main0 main1"
+    ;
 }

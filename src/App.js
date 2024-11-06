@@ -6,7 +6,7 @@ import './variables.css';
 
 function App() {
     return (
-        <div className="App">
+        <div>
             <Header/>
             <Page0/>
         </div>

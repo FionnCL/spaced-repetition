@@ -1,8 +1,8 @@
 .page {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
-    background-color: var(--green-pastelle);
 }
 
 .grid {
@@ -13,4 +13,44 @@
         "head0 head1"
         "main0 main1"
     ;
+}
+
+.infocards {
+    display: flex;
+    flex-direction: row;
+}
+
+.infocard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+}
+
+.infocard--bubble {
+    display: flex;
+    background-color: var(--purple-pastelle);
+    color: var(--black-pastelle);
+    width: fit-content;
+    height: 32px;
+    padding: 0 1rem;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: px;
+    margin: 1rem 0 0 2rem;
+    border-color: var(--black-pastelle);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.left {
+    width: 50vw;
+}
+
+
+.right {
+    background-color: var(--white-solid);
+    width: 50vw;
 }

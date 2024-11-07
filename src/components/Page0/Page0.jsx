@@ -2,7 +2,6 @@ import React from 'react';
 import { content } from '../../content';
 
 import Card from '../Card/Card';
-import ColorCard from '../ColorCard/ColorCard';
 
 import './Page0.css'
 
@@ -60,9 +59,9 @@ export default function Page0() {
                 <div style={{
                     textAlign: 'center', color: 'var(--black-pastelle)'
                 }}> 
-                    <ColorCard content={content.introduction0} colorVariable={'--red-pastelle'}/>
-                    <ColorCard content={content.introduction1} colorVariable={'--green-pastelle'}/>
-                    <ColorCard content={content.introduction2}  colorVariable={'--purple-pastelle'}/>
+                    <Card content={content.introduction0} color={'--red-pastelle'}/>
+                    <Card content={content.introduction1} color={'--green-pastelle'}/>
+                    <Card content={content.introduction2}  color={'--purple-pastelle'}/>
                 </div>
             </div>
         </div>

@@ -2,14 +2,15 @@ export const content = {
     "introduction0":
         "Welcome to <b>Spaced Pronunciation</b>, where we will be discussing a " +
         "hypothetical <b>spaced repetition</b> application, with an emphasis on " +
-        "improving a learners <b>pronunciation</b> of a second language.",
+        "improving a learners <b>pronunciation</b> of a second language(L2).",
     "introduction1":
-        "<b>Fossilisation</b> of errors may occur in a leaners pronunciation after " +
-        "prolonged use of spaced repetition study strategies as learners will " + 
-        "<b>persistently</b> make the same errors in pronunciation many times over, " +
-        "making such behaviour harder to correct later on.",
+        "The <b>goal</b> of the application is to <b>improve a learners ability to pronounce " +
+        "words/phrases in an L2</b> by catching any errors in pronunciation that a learner would have otherwise " +
+        "initially made. The thought process behind this is that catching such errors as soon as possible will " +
+        "will alleviate the problems caused by the <b>fossilization</b> of these mispronunciations " +
+        "later in a learners education.",
     "introduction2":
-        "So, <b>how can we overcome these issues?</b> We propose the use of " +
+        "We propose the use of " +
         "<b>Speech Synthesis</b> to help <i>teach</i> the correct pronunciation of a word/phrase " +
         "on spaced repetition flashcard, and <b>Automatic Speech Recognition</b>(ASR) to <i>correct</i> " +
         "any errors in said pronunciation.",

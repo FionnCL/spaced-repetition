@@ -46,11 +46,14 @@
 }
 
 .left {
-    width: 50vw;
+    width: 45vw;
 }
 
 
 .right {
     background-color: var(--white-solid);
-    width: 50vw;
+    border-left-style: dashed;
+    border-left-color: var(--black-pastelle);
+    border-left-width: 2px;
+    width: 55vw;
 }

@@ -16,14 +16,12 @@
 .header--buttons {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .header--buttons > button {
-    border-radius: 25px;
-    border-style: none;
-    height: 50px;
-    width: 50px;
+    background-color: var(--black-pastelle);
+    border: none;
 }
 
 .header--buttons > button:hover {

@@ -1,0 +1,14 @@
+.figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.figure > p {
+    color: var(--black-pastelle);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 60%;
+}

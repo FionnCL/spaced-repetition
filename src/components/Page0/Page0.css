@@ -5,16 +5,6 @@
     align-items: center;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 10vh 65vh;
-    grid-template-areas: 
-        "head0 head1"
-        "main0 main1"
-    ;
-}
-
 .infocards {
     display: flex;
     flex-direction: row;
@@ -46,14 +36,17 @@
 }
 
 .left {
-    width: 45vw;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
-
 .right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     background-color: var(--white-solid);
     border-left-style: dashed;
     border-left-color: var(--black-pastelle);
     border-left-width: 2px;
-    width: 55vw;
 }

@@ -1,5 +1,6 @@
 .page {
     display: flex;
+    flex: 1;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -37,16 +38,17 @@
 
 .left {
     display: flex;
-    flex: 1;
+    flex: 1/2;
     flex-direction: column;
+    background-color: var(--white-pastelle);
 }
 
 .right {
     display: flex;
-    flex: 1;
+    flex: 1/2;
     flex-direction: column;
     background-color: var(--white-solid);
-    border-left-style: dashed;
-    border-left-color: var(--black-pastelle);
-    border-left-width: 2px;
+    border-top-style: dashed;
+    border-top-color: var(--black-pastelle);
+    border-top-width: 2px;
 }

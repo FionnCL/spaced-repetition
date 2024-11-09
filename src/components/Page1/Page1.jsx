@@ -4,10 +4,12 @@ import { MdReportGmailerrorred } from "react-icons/md";
 import { HiSpeakerWave } from "react-icons/hi2";
 import { FaMicrophone } from "react-icons/fa";
 
-// import { content } from '../../content';
+import { content } from '../../content';
 import zanahoria from '../../assets/zanahoria.wav';
+import pipeline from '../../assets/pipeline.png';
 
 import './Page1.css'
+import Card from '../Card/Card';
 
 const transition = (top, bottom) => {
     return(
@@ -68,10 +70,10 @@ export default function Page1() {
                                     <p>Easy</p>
                                 </button>
                                 <button onClick={() => setRecallComplete(true)}>
-                                    <p>Medium</p>
+                                    <p>Hard</p>
                                 </button>
                                 <button onClick={() => setRecallComplete(true)}>
-                                    <p>Hard</p>
+                                    <p>No Recall</p>
                                 </button>
                             </div>
                         </div>
@@ -89,17 +91,18 @@ export default function Page1() {
                         style={{alignItems: 'center', height: '85%'}}>
                             { recallComplete ?
                             <div>
+                                <h3 style={{margin: '0.25rem'}}>La Zanahoria</h3>
                                 <button 
                                 className='synthesis'
                                 onClick={() => play()}>
                                     <HiSpeakerWave 
-                                    size={70} 
+                                    size={40} 
                                     style={{color: 'var(--black-pastelle)'}}/> 
                                 </button>
                                 <button 
                                 className='button-synth'
                                 onClick={() => setSynthComplete(true)}>
-                                    <p>Continue</p>
+                                    Continue to ASR
                                 </button>
                             </div>
                             :
@@ -119,6 +122,7 @@ export default function Page1() {
                         style={{alignItems: 'center', height: '85%'}}>
                             { recallComplete && synthComplete ?
                             <div>
+                                <h3 style={{margin: '0.25rem'}}>La Zanahoria</h3>
                                 <button 
                                 className='synthesis'
                                 style={ recording ? { borderColor: '#FF5555'}
@@ -132,7 +136,7 @@ export default function Page1() {
                                     }
                                 }}>
                                     <FaMicrophone
-                                    size={70} 
+                                    size={40} 
                                     style={{color: 'var(--black-pastelle)'}}/> 
                                 </button>
                                 <button 
@@ -149,6 +153,26 @@ export default function Page1() {
                     </div>
                 </div>
 
+            </div>
+            <div className='content'>
+                <div className='content--side'>
+                    <h1 style={{
+                        borderBottomStyle: 'solid',
+                        borderBottomWidth: '2px',
+                        borderBottomColor: 'var(--black-pastelle)',
+                        paddingLeft: '2rem',
+                        paddingRight: '2rem',
+                        width: 'fit-content',
+                        marginBottom: 0
+                    }}>The Process</h1> 
+                    <Card content={content.pipeline0}/>
+                </div>
+                <Card interpolate={
+                    <img 
+                    src={pipeline}
+                    alt='The user process of recalling, listening, and pronouncing each card in a deck.'
+                    height={350}/>
+                }/>
             </div>
         </div>
     );

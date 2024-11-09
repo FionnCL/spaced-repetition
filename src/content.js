@@ -33,4 +33,13 @@ export const content = {
     "introduction7":
         "<b>Speech synthesis</b> is already used heavily in language learning environments " +
         "and is rapidly approaching a level of clarity that rivals that of humans [9][DO BETTER].",
+    "pipeline0":
+        "Pictured here is the process that a user goes through for each deck of flashcards. " +
+        "There are <b>3 major tasks: recall, listen, and pronounce.</b> " +
+        "A learner must give each word/phrase a rating on how hard it was to <b>recall</b>. " +
+        "The next <b>Inter-Study Interval</b> (ISI) depends on the answer given here. The next " +
+        "two tasks happen regardless of the difficulty. " +
+        "The <b>listen</b> task can be done as many times as a learner wishes to. " +
+        "When the learner wishes to, they can move on to the <b>pronounce</b> task. " + 
+        "A learner can only move on to the next card when they succeed. "
 };

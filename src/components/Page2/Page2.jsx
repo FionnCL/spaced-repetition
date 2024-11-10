@@ -2,6 +2,8 @@ import React from 'react';
 import { GiChoice } from "react-icons/gi";
 import { LiaUniversitySolid } from "react-icons/lia";
 import { MdTimer } from "react-icons/md";
+import { FaPencilRuler } from "react-icons/fa";
+import { FaTrophy } from "react-icons/fa";
 
 import Card from '../Card/Card';
 
@@ -71,7 +73,7 @@ export default function Page2() {
                 <Figure
                 file={captEfficieny}
                 height={200}
-                caption='Fig 6. CAPT group spent 103 minutes with the tool. Scored higher than the control on average [9].'
+                caption='Fig 6. CAPT group spent 103 minutes with the tool. They scored higher than the group control on average [9].'
                 />
 
             </div>
@@ -79,11 +81,13 @@ export default function Page2() {
 
             <div className={styles.content}>
 
-                <div style={{width: '50vw'}}>
                     <Card 
-                    interpolate={iconBox(<LiaUniversitySolid/>, 'var(--purple-pastelle)')} 
+                    interpolate={iconBox(<FaPencilRuler/>, 'var(--blue-pastelle)')} 
                     content={content.eval3}/>
-                </div>
+
+                    <Card 
+                    interpolate={iconBox(<FaTrophy/>, 'var(--dark-green-pastelle)')} 
+                    content={content.eval4}/>
 
             </div>
         </div>

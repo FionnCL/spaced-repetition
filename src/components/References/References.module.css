@@ -1,20 +1,17 @@
 .references {
     display: flex;
     flex-direction: column;
+    margin: 4rem;
     width: 50vw;
 }
 
 .shill {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     text-align: center;
     color: var(--black-pastelle);
-    position: absolute;
-    top: 20;
-    right: 0;
-    left: 20;
     margin: 4rem;
 }
 

@@ -99,7 +99,7 @@ export default function Page0() {
                         <Figure 
                         width={'400px'} 
                         file={asrVersusEvaluators} 
-                        caption={'Fig 2. ASR vs. professional evaluators scoring participant pronunciation.'}/>
+                        caption={'Fig 2. ASR vs. professional evaluators scoring participant pronunciation [9].'}/>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center'}}>
                         <Figure 

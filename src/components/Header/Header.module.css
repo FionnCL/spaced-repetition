@@ -11,20 +11,21 @@
     top: 0;
 }
 
-.header--h1 {
+.headerH1 {
+
 }
 
-.header--buttons {
+.headerButtons {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
 }
 
-.header--buttons > button {
+.headerButtons > button {
     background-color: var(--black-pastelle);
     border: none;
 }
 
-.header--buttons > button:hover {
+.headerButtons > button:hover {
     cursor: pointer;
 }

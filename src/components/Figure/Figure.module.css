@@ -1,5 +1,6 @@
 .figure {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -10,5 +11,5 @@
 .figure > p {
     color: var(--black-pastelle);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 60%;
+    width: 50%;
 }

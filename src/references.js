@@ -8,5 +8,6 @@ export const references = [
     '[7] Dalby, J., & Kewley-Port, D. (1999). Explicit pronunciation training using automatic speech recognition technology. CALICO Journal, 16(3). https://doi.org/10.1558/cj.v16i3.425-445',
     '[8] Elimat, A. K., & AbuSeileek, A. F. (2014). Automatic speech recognition technology as an effective means for teaching pronunciation. The JALT CALL Journal, 10(1). https://doi.org/10.29140/jaltcall.v10n1.166',
     '[9] Tejedor-Garcia, C., Escudero-Mancebo, D., Camara-Arenas, E., Gonzalez-Ferreras, C., & Cardenoso-Payo, V. (2020). Assessing Pronunciation Improvement in Students of English Using a Controlled Computer-Assisted Pronunciation Tool. IEEE Transactions on Learning Technologies, 13(2). https://doi.org/10.1109/TLT.2020.2980261',
-
+    '[10] Pourhosein Gilakjani, A., & Rahimy, R. (2020). Using computer-assisted pronunciation teaching (CAPT) in English pronunciation instruction: A study on the impact and the Teacher’s role. Education and Information Technologies, 25(2). https://doi.org/10.1007/s10639-019-10009-1',
+    '[11] Kang, S. H. K. (2016). Spaced Repetition Promotes Efficient and Effective Learning: Policy Implications for Instruction. Policy Insights from the Behavioral and Brain Sciences, 3(1). https://doi.org/10.1177/2372732215624708',
 ];

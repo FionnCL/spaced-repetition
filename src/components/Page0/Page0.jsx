@@ -6,7 +6,7 @@ import { LuGoal } from "react-icons/lu";
 import { content } from '../../content';
 import Card from '../Card/Card';
 
-import './Page0.css'
+import styles from './Page0.module.css'
 import Figure from '../Figure/Figure';
 
 import retentionInterval from '../../assets/retention-interval.png';
@@ -28,8 +28,8 @@ const goalBox = (
 
 export default function Page0() {
     return(
-        <div className='page'>
-            <div className='left'>
+        <div className={styles.page}>
+            <div className={styles.left}>
                 <div style={{
                     display: 'flex', justifyContent: 'center',
                     textAlign: 'center', color: 'var(--black-pastelle)'
@@ -50,19 +50,19 @@ export default function Page0() {
                     <Card content={content.introduction0}/>
                     <Card content={content.introduction1} interpolate={goalBox}/>
                     <Card content={content.introduction2}/>
-                    <div className='infocards'>
-                        <div className='infocard'>
-                            <p className='infocard--bubble'><b>Speech Synthesis <SlSpeech/></b></p>
+                    <div className={styles.infocards}>
+                        <div className={styles.infocard}>
+                            <p className={styles.infocardBubble}><b>Speech Synthesis <SlSpeech/></b></p>
                             <Card content={content.introduction3}/>
                         </div>
-                        <div className='infocard'>
-                            <p className='infocard--bubble'><b>ASR <FaEarListen/></b></p>
+                        <div className={styles.infocard}>
+                            <p className={styles.infocardBubble}><b>ASR <FaEarListen/></b></p>
                             <Card content={content.introduction4}/>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='right'>
+            <div className={styles.right}>
                 <div style={{
                     display: 'flex', justifyContent: 'center',
                     textAlign: 'center', color: 'var(--black-pastelle)'
@@ -99,7 +99,7 @@ export default function Page0() {
                         <Figure 
                         width={'400px'} 
                         file={asrVersusEvaluators} 
-                        caption={'Fig 2. Scores of the pronunciation of students as given by ASRs to professional evaluators.'}/>
+                        caption={'Fig 2. ASR vs. professional evaluators scoring participant pronunciation.'}/>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center'}}>
                         <Figure 

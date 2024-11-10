@@ -6,8 +6,9 @@ import References from './components/References/References';
 import './App.css';
 import './variables.css';
 import { useState } from 'react';
+import Page2 from './components/Page2/Page2';
 
-const maxPageIndex = 2;
+const maxPageIndex = 3;
 
 function App() {
     const [pageNumber, setPageNumber] = useState(0);
@@ -27,6 +28,8 @@ function App() {
             case 1:
                 return <Page1/>;
             case 2:
+                return <Page2/>;
+            case 3:
                 return <References/>;
             default:
                 if(pageNumber < 0){ setPageNumber(maxPageIndex); return <References/>; }
@@ -37,7 +40,11 @@ function App() {
 
     return (
         <div>
-            <Header increment={increment} decrement={decrement}/>
+            <Header 
+            currPageNumber={pageNumber + 1} 
+            maxPageNumber={maxPageIndex + 1} 
+            increment={increment} 
+            decrement={decrement}/>
             {getPage()}
         </div>
     );

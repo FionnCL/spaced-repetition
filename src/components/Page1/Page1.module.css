@@ -12,9 +12,10 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    margin: 2rem;
 }
 
-.content--side {
+.contentSide {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -30,22 +31,22 @@
     justify-content: space-evenly;
     width: 100%;
     background-color: var(--green-pastelle);
-    padding: 2rem 0;
+    padding: .5rem 0 1rem 0;
     border-bottom-width: 2px;
     border-bottom-color: var(--black-pastelle);
     border-bottom-style: dashed;
 }
 
-.pipeline--element {
+.pipelineElement {
     text-align: center; 
 }
 
-.pipeline--element > h1 {
+.pipelineElement > h1 {
     color: var(--black-pastelle);
     margin: .125rem;
 }
 
-.pipeline--transition {
+.pipelineTransition {
     display: flex;
     padding-top: 2.5rem;
     flex-direction: column;
@@ -54,11 +55,11 @@
     text-align: center;
 }
 
-.pipeline--transition {
+.pipelineTransition {
     color: var(--black-pastelle);
 }
 
-.button-group {
+.buttonGroup {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,7 +67,7 @@
     gap: 1rem;
 }
 
-.button-group > button {
+.buttonGroup > button {
     display: flex;
     height: 2rem;
     text-align: center;
@@ -80,7 +81,23 @@
     padding: 0 1rem;
 }
 
-.button-synth {
+.buttonSynth {
+    display: flex;
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+    color: var(--black-pastelle);
+    background-color: var(--white-pastelle);
+    border-style: solid;
+    border-color: var(--black-pastelle);
+    border-width: 1px;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    margin: 0.25rem 0 0 0;
+}
+
+
+.buttonASR {
     display: flex;
     height: 2rem;
     text-align: center;
@@ -99,7 +116,11 @@ button:hover {
     cursor: pointer;
 }
 
-.pipeline--card--content {
+.buttonASR:hover {
+    cursor: default;
+}
+
+.pipelineCardContent {
     display: flex;
     height: 90%;
     flex-direction: column;
@@ -115,7 +136,7 @@ button:hover {
     background-color: var(--white-pastelle);
 }
 
-.pipeline--card--bar {
+.pipelineCardBar {
     display: flex;
     flex: 1;
     height: 2rem;
@@ -132,11 +153,11 @@ button:hover {
     border-bottom-width: 1px;
 }
 
-.pipeline--card--bar > p {
+.pipelineCardBar > p {
     color: var(--black-pastelle);
 }
 
-.pipeline--card {
+.pipelineCard {
     box-shadow: var(--black-pastelle) 2px 2px;
     border-color: var(--black-pastelle);
     background-color: var(--white-solid);

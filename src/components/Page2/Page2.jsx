@@ -61,13 +61,13 @@ export default function Page2() {
                 <Figure
                 file={captTeacher1}
                 height={300}
-                caption='Fig 4. Experimental group: Performed better than the control, who had no CAPT to assist them [10].'
+                caption='Fig 4. Teacher+CAPT: no idea how much influence this particular teacher had on the students [10].'
                 />
 
                 <Figure
                 file={captTeacher2}
                 height={300}
-                caption='Fig 5. Control group: Performed worse than the experimental group, who had CAPT to assist them [10].'
+                caption='Fig 5. Just teacher: similar problem to Teacher+CAPT group. How would they have done with CAPT? [10].'
                 />
 
                 <Figure

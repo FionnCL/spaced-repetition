@@ -9,28 +9,16 @@ export default function References(){
     const referenceMap = references.map(reference => {
         return(
             <Card
+            key={reference}
             content={reference}
             />
         );
     });
 
     return(
-        <div style={{
-            display: 'flex', flexDirection: 'row',
-            margin: '2rem'
-        }}>
+        <div>
             <div className={styles.references}>
                 {referenceMap}            
-            </div>
-            <div className={styles.shill}>
-                <Card
-                interpolate={
-                <div>
-                    <h2>Check out my portfolio below</h2>
-                    <h1><a href='https://fionncl.web.app' target="_blank" rel="noreferrer noopener">FionnCL</a></h1>
-                </div>
-                }
-                />
             </div>
         </div>
     );

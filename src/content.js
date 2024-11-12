@@ -34,51 +34,21 @@ export const content = {
         "<b>Speech synthesis</b> is already utilised in language learning environments and " +
         "has shown promising potential for use in the classroom [9].",
     "pipeline0":
-        "The learner must <b>recall</b> the card presented to them. They may give a rating of either " + 
+        "The learner must <b>recall (principle 2)</b> the card presented to them. They may give a rating of either " + 
         "<i>[EASY]</i>, <i>[HARD]</i>, or <i>[NO RECALL]</i>. The answer here has no bearing on the rest of the tasks but " +
         "will effect the <b>Inter-Study Interval (ISI)</b> between the the current and future recall session. <i>[NO RECALL]</i> " +
         "will result in the card having to be recalled again before the recall session is over.",
     "pipeline1":
-        "The learner may or may not <b>listen</b> to the synthesised recording of the recalled " + 
+        "The learner may or may not <b>listen (principle 3)</b> to the synthesised recording of the recalled " + 
         "word or phrase. The learner has the ability to play it as many times as they wish. ",
     "pipeline2":
         "To complete the process and move on to the next card in the deck, the learner " +
-        "must correctly <b>pronounce</b> the card's content (one could imagine a threshold of 'correctness' being used). " +
+        "must correctly <b>pronounce (principle 4)</b> the card's content (one could imagine a threshold of 'correctness' being used). " +
         "The entire process outlined here will " + 
         "continue until all cards in the deck are recalled with. ",
-    "eval0":
-        "<b>Methodology: </b>" +
-        "In order to find out how effective our proposed CAPT app is, " + 
-        "we should be measuring the <b>performance</b> of learners before and after (pre- and post-tests) using our application " + 
-        "and how much <b>time</b> they spend using our application. However, there are some things we need " + 
-        "to consider.",
-    "eval1":
-        "<b>Setting: </b>" + 
-        "Ideally, we would want to conduct our study on participants that will not be learning the pre- and post-test " + 
-        "content from any other sources. However, it is often a lot easier to get " + 
-        "participants currently engaged in an active education, unfortunately adding a variable to our findings. " + 
-        "Despite this, seeing as our situation is hypothetical, we will say that our sample of participants will " +
-        "be <b>solely using our application</b> to assist their pronunciation, and that we will use other similar " + 
-        "CAPT studies to compare our findings with.",
-    "eval2":
-        "An obvious factor that is important to be considered is our application's time <b>efficiency</b>. " +
-        "Other than the improved retention of information that using spaced repetition study strategies facilitates, " + 
-        "spaced repetition is very efficient in terms of time spent studying and overall performance [11], and so " + 
-        "time spent using the application should be measured and compared to the final results.",
-    "eval3":
-        "We can see that in order to evaluate our CAPT application properly, there are a few things we need to be wary of. " + 
-        "All of the following variables can be measured and evaluated using some sort of control group or " + 
-        "by collecting data from each participant in the app itself: " + 
-
-        "<ul><li>The performance of the participants before and after using the app (app analytics).</li>  " + 
-        "<li>The total time efficiency of our application (app analytics).</li>" +
-        "<li>The effect an educator being present may have on our findings (control/existing apps).</li></ul>",
-    "eval4":
-        "Throughout this discussion, we looked at the benefits and advantages of using such a " + 
-        "hypothetical CAPT application, how it would work, and how it would be evaluated. " +
-        "You will find all references on the next page. Thank you for taking the time to read this website!",
     "theory0":
-        "So, <b>what theory should be take into account when designing our CAPT app?</b> " +
+        "So, <b>what theory should can take into account to fully justify putting any effort into " + 
+        "actually making our proposed CAPT app?</b> " +
         "Considering the goal of our application is to teach/instruct a learner about " + 
         "the correct pronunciation of an L2 word/phrase, " +
         "we can look to the First Principles of Instruction (FPI) [12] to guide us." +
@@ -124,5 +94,29 @@ export const content = {
         "<br>" + 
         "<b>Principle 5</b> could be accounted for by having some sort of " +
         "'stats' screen at the end of each recall session so that a learner " +
-        "may reflect on their performance."
+        "may reflect on their performance.",
+    "eval0":
+        "We have so far decided that we will be <b>targeting learners</b> who wish to " + 
+        "<b>improve their pronunciation</b> of some L2. We have also backed up our desire to " + 
+        "start developing the application with <b>evidence of each component of the application working " +
+        "in their own respective environments</b>. Finally, we <b>verified</b> that each step in the <b>process</b> " +
+        "could potentially achieve this goal of training learners to pronounce words/phrases correctly by adhering " + 
+        "to the tried-and-tested <b>FPI</b>." + 
+        "There are still have some decisions to be made in relation to how the development and evaluation process itself will go!",
+    "eval1":
+        "In order to properly evaluate our application, there are two main measurements we need:" +
+        "<ul>" +
+        "<li>Performance</li>" + 
+        "<li>Usability</li>" + 
+        "</ul>" +
+        "<br>" +
+        "<br>" +
+        "<b>Performance</b> may be best measured by comparing the results of our experimental " +
+        "group to a control group in a pre- and post-test environment, and taking the total time spent ...",
+    "eval2":
+        "",
+    "eval3":
+        "",
+    "eval4":
+        "",
 };

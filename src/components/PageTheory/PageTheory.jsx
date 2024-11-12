@@ -7,7 +7,6 @@ import styles from './PageTheory.module.css'
 import Figure from '../Figure/Figure';
 
 import merril1 from '../../assets/merril.png';
-import merril2 from '../../assets/merril2.png';
 import tatl from '../../assets/tatl.png';
 
 export default function PageTheory() {
@@ -21,7 +20,7 @@ export default function PageTheory() {
                 paddingRight: '2rem',
                 width: 'fit-content',
                 marginBottom: '2rem',
-            }}>Theory</h1> 
+            }}>Theory: Making a Capable CALL Platform</h1> 
             <div className={styles.pageSection}>
                 <Figure
                 height={350}
@@ -41,17 +40,6 @@ export default function PageTheory() {
                 file={tatl}
                 height={350}
                 caption='Another depiction of FPI.'
-                />
-            </div>
-
-            <div className={styles.pageSection}>
-                <img
-                src={merril2}
-                height={350}
-                alt='First principles of interaction.'
-                />
-                <Card
-                content={content.theory1}
                 />
             </div>
         </div>

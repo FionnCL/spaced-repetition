@@ -10,4 +10,6 @@ export const references = [
     '[9] Tejedor-Garcia, C., Escudero-Mancebo, D., Camara-Arenas, E., Gonzalez-Ferreras, C., & Cardenoso-Payo, V. (2020). Assessing Pronunciation Improvement in Students of English Using a Controlled Computer-Assisted Pronunciation Tool. IEEE Transactions on Learning Technologies, 13(2). https://doi.org/10.1109/TLT.2020.2980261',
     '[10] Pourhosein Gilakjani, A., & Rahimy, R. (2020). Using computer-assisted pronunciation teaching (CAPT) in English pronunciation instruction: A study on the impact and the Teacher’s role. Education and Information Technologies, 25(2). https://doi.org/10.1007/s10639-019-10009-1',
     '[11] Kang, S. H. K. (2016). Spaced Repetition Promotes Efficient and Effective Learning: Policy Implications for Instruction. Policy Insights from the Behavioral and Brain Sciences, 3(1). https://doi.org/10.1177/2372732215624708',
+    '[12] Merrill, M. D. (2002). First principles of instruction. Educational technology research and development, 50, 43-59.',
+    
 ];

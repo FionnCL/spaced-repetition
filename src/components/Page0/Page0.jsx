@@ -75,7 +75,7 @@ export default function Page0() {
                         paddingRight: '2rem',
                         width: 'fit-content',
                         marginBottom: 0
-                    }}>Justification</h1> 
+                    }}>Literature</h1> 
                </div>
                 <div style={{
                     textAlign: 'center', color: 'var(--black-pastelle)'

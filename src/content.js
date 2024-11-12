@@ -77,4 +77,52 @@ export const content = {
         "Throughout this discussion, we looked at the benefits and advantages of using such a " + 
         "hypothetical CAPT application, how it would work, and how it would be evaluated. " +
         "You will find all references on the next page. Thank you for taking the time to read this website!",
+    "theory0":
+        "So, <b>what theory should be take into account when designing our CAPT app?</b> " +
+        "Considering the goal of our application is to teach/instruct a learner about " + 
+        "the correct pronunciation of an L2 word/phrase, " +
+        "we can look to the First Principles of Instruction (FPI) [12] to guide us." +
+        "<ol>" +
+        "<li><b>Problem centered:</b> Give the learner a <b>desire</b> " +
+            "to learn by making the tasks relevant and applicable to the real world.</li>" +
+        "<br>" +
+        "<li><b>Activation:</b> Facilitate learning by making learners <b>apply</b> their " + 
+            "existing knowledge.</li>" +
+        "<br>" +
+        "<li><b>Demonstration:</b> Give the learners <b>new knowledge</b> in order to " + 
+            "promote learning.</li>" +
+        "<br>" +
+        "<li><b>Application:</b> Further develop learning through the learner " + 
+            "<b>applying this new information.</b></li>" +
+        "<br>" +
+        "<li><b>Integration: </b> Foster learning by <b>integrating</b> this new knowledge into " + 
+            "learners' worlds.</li>" +
+        "</ol>",
+    "theory1":
+        "<b>Principle 1</b> is not a huge problem for us as " +
+        "a learner will get a lot <b>further</b> speaking an L2 with better pronunciation. " + 
+        "Also, depending on the setting, there may already be some element of <b>intrinsic desire</b> " +
+        "in the learner to be better at pronouncing an L2 already." +
+        "<br>" + 
+        "<br>" + 
+        "<b>Principle 2</b> is really where our application comes into play. Spaced repetition " +
+        "was basically invented to target this principle. We will see this in practice " + 
+        "in <i>Task 1 (Recalling a word or phrase)</i> of our app, " + 
+        "and to a lesser extent <i>Task 3 (Pronouncing the word or phrase)</i>." +
+        "<br>" + 
+        "<br>" + 
+        "<b>Principle 3</b> is where the thought process behind <i>Task 2</i> came from. " +
+        "We are <b>showing</b> a learner the <b>correct</b> pronunciation of a word" +
+        "using speech synthesis." +
+        "<br>" + 
+        "<br>" + 
+        "<b>Principle 4</b> will be covered by <i>Task 3</i>, as the user will have " +
+        "to <b>apply</b> what they've just learned in order to move on to the next stage. " +
+        "This application will come in the form of a learner pronouncing the synthesised " +
+        "word, and having an ASR grading their pronunciation as being acceptable or not. " +
+        "<br>" + 
+        "<br>" + 
+        "<b>Principle 5</b> could be accounted for by having some sort of " +
+        "'stats' screen at the end of each recall session so that a learner " +
+        "may reflect on their performance."
 };

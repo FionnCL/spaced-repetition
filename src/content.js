@@ -104,14 +104,11 @@ export const content = {
         "to the tried-and-tested <b>FPI</b>." + 
         "There are still have some decisions to be made in relation to how the development and evaluation process itself will go!",
     "eval1":
-        "In order to properly evaluate our application, there are two main measurements we need:" +
-        "<ul>" +
-        "<li>Performance</li>" + 
-        "<li>Usability</li>" + 
-        "</ul>" +
-        "<b>Performance</b> may be best measured by comparing the results of our experimental " +
+        "In order to properly evaluate our application, two measurements we can take are: " +
+        "<b>Performance and Usability.</b> " + 
+        "Performance may be best measured by comparing the results of our experimental " +
         "group to a control group in a pre- and post-test environment. " +
-        "These results may be compared to similar CAPT applications' performances, or alternatively, " +
+        "These results would be compared to similar CAPT applications' performances, or alternatively, " +
         "we could take the performance gains of the learners divided by the total time spent using the app of each user.",
     "eval2":
         "",

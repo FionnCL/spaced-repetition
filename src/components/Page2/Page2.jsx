@@ -47,13 +47,13 @@ export default function Page2() {
                 interpolate={iconBox(<LiaUniversitySolid size={30}/>, 'var(--purple-pastelle)')} 
                 content={content.eval1}/>
 
-                <Card 
-                interpolate={iconBox(<MdTimer size={30}/>, 'var(--green-pastelle)')} 
-                content={content.eval2}/>
-
             </div>
 
             <div className={styles.content}>
+
+                    <Card 
+                    interpolate={iconBox(<MdTimer size={30}/>, 'var(--green-pastelle)')} 
+                    content={content.eval2}/>
 
                     <Card 
                     interpolate={iconBox(<FaPencilRuler size={30}/>, 'var(--blue-pastelle)')} 

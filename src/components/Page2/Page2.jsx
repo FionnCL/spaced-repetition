@@ -8,12 +8,8 @@ import { FaTrophy } from "react-icons/fa";
 import Card from '../Card/Card';
 
 import { content } from '../../content';
-import captTeacher1 from '../../assets/capt-teacher1.png';
-import captTeacher2 from '../../assets/capt-teacher2.png';
-import captEfficieny from '../../assets/capt-efficiency.png';
 
 import styles from './Page2.module.css';
-import Figure from '../Figure/Figure';
 
 const iconBox = (icon, color) => {
     return(

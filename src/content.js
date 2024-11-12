@@ -109,10 +109,10 @@ export const content = {
         "<li>Performance</li>" + 
         "<li>Usability</li>" + 
         "</ul>" +
-        "<br>" +
-        "<br>" +
         "<b>Performance</b> may be best measured by comparing the results of our experimental " +
-        "group to a control group in a pre- and post-test environment, and taking the total time spent ...",
+        "group to a control group in a pre- and post-test environment. " +
+        "These results may be compared to similar CAPT applications' performances, or alternatively, " +
+        "we could take the performance gains of the learners divided by the total time spent using the app of each user.",
     "eval2":
         "",
     "eval3":

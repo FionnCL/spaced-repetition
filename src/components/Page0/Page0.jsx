@@ -95,17 +95,17 @@ export default function Page0() {
                         <Figure 
                         width={'400px'} 
                         file={retentionInterval} 
-                        caption={'Fig 1. A scatter plot of retention-interval to study-interval (spaced repetition) [5].'}/>
+                        caption={'A scatter plot of retention-interval to study-interval (spaced repetition) [5].'}/>
                         <Figure 
                         width={'400px'} 
                         file={asrVersusEvaluators} 
-                        caption={'Fig 2. ASR vs. professional evaluators scoring participant pronunciation [9].'}/>
+                        caption={'ASR vs. professional evaluators scoring participant pronunciation [9].'}/>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center'}}>
                         <Figure 
                         width={'500px'} 
                         file={asrEffectiveness} 
-                        caption={'Fig 3. Control group vs. experimental group using an ASR tool to train pronunciation [8].'}/>
+                        caption={'Control group vs. experimental group using an ASR tool to train pronunciation [8].'}/>
                     </div>
                 </div>
             </div>

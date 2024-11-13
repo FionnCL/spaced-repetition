@@ -1,13 +1,16 @@
 import React from 'react';
 import { GiChoice } from "react-icons/gi";
 import { LiaUniversitySolid } from "react-icons/lia";
-import { MdTimer } from "react-icons/md";
 import { FaPencilRuler } from "react-icons/fa";
 import { FaTrophy } from "react-icons/fa";
+import { FaPersonCircleQuestion } from "react-icons/fa6";
 
 import Card from '../Card/Card';
+import Figure from '../Figure/Figure';
 
 import { content } from '../../content';
+import methodology1 from '../../assets/methodology1.png';
+import methodology2 from '../../assets/methodology2.png';
 
 import styles from './Page2.module.css';
 
@@ -49,10 +52,24 @@ export default function Page2() {
 
             </div>
 
+            <div className={styles.figures}>
+
+                <Figure
+                file={methodology1}
+                caption='An example of the iterative process for a spaced repetition application, taking perceived usability into account [13].'
+                />
+
+                <Figure
+                file={methodology2}
+                caption="An example of comparing similar CALL apps' performances (Anki + Memrise, Quizlet, Memrise, Memrise) [13]."
+                />
+
+            </div>
+
             <div className={styles.content}>
 
                     <Card 
-                    interpolate={iconBox(<MdTimer size={30}/>, 'var(--green-pastelle)')} 
+                    interpolate={iconBox(<FaPersonCircleQuestion size={30}/>, 'var(--green-pastelle)')} 
                     content={content.eval2}/>
 
                     <Card 

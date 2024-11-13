@@ -1,18 +1,8 @@
 .references {
     display: flex;
-    flex-direction: column;
-    margin: 4rem;
-    width: 50vw;
-}
-
-.shill {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: center;
-    color: var(--black-pastelle);
-    margin: 4rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .reference {
@@ -20,4 +10,5 @@
     font-size: 1.125rem;
     margin: 5;
     color: var(--black-pastelle);
+    width: 40vw;
 }

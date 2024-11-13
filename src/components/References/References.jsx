@@ -8,10 +8,12 @@ import styles from './References.module.css';
 export default function References(){
     const referenceMap = references.map(reference => {
         return(
-            <Card
-            key={reference}
-            content={reference}
-            />
+            <div className={styles.reference}>
+                <Card
+                key={reference}
+                content={reference}
+                />
+            </div>
         );
     });
 

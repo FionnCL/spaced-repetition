@@ -101,24 +101,29 @@ export const content = {
         "start developing the application with <b>evidence of each component of the application working " +
         "in their own respective environments</b>. Finally, we <b>verified</b> that each step in the <b>process</b> " +
         "could potentially help to achieve this goal of training learners to pronounce words/phrases correctly by adhering " + 
-        "to the tried-and-tested <b>FPI</b>." + 
-        "There are still have some decisions to be made in relation to how the development and evaluation process itself will go!",
+        "to the tried-and-tested <b>FPI</b>. " + 
+        "There are still some decisions to be made in relation to how the development and evaluation process itself will go!",
     "eval1":
         "<b>Learner performance</b> is one way to measure how 'successful' our app is. " + 
         "Performance may be best measured by comparing the results of our experimental " +
         "group to a control group in a pre- and post-test environment. " +
-        "These results would be compared to similar CAPT applications' performances, or alternatively, " +
-        "we could take the performance gains of the learners divided by the total time spent using the app of each user.",
+        "These results would also then be compared to similar CAPT applications' performances. ",
     "eval2":
         "Another important measure of success is just seeing how users " +
         "<b>feel about the app in terms of usability.</b> This can be " + 
         "achieved through questionnaires, interviews, surveys, etc. " +
-        "<b>Good theory will only take you so far </b> if <i>nobody</i> " + 
-        "wants to the tool you made.",
+        "<b>Good theory will only take you so far if </b><i>nobody</i> " + 
+        "wants to use the tool you made.",
     "eval3":
         "Once we choose one of these methods of evaluation, we can perform some " +
         "iterative design process, improving as we go, until we reach some desired " +
-        "<b>threshold</b> of acceptabilty for performance and usability. ",
+        "<b>threshold</b> of acceptability for performance and usability. " +
+        "With each bit of user feedback that is obtained, the application can be improved. " +
+        "This should be done until the acceptability threshold has been met. " +
+        "Then, the application can move on to being tested by a larger user to see if the theory is " +
+        "holding up.",
     "eval4":
-        "",
+        "After all of the theory, designing, developing, prototyping, iterating, and " +
+        "tweaking, a functional CAPT application that achieves the goals set out at the start " +
+        "will have been created!",
 };

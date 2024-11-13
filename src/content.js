@@ -47,7 +47,7 @@ export const content = {
         "The entire process outlined here will " + 
         "continue until all cards in the deck are recalled with. ",
     "theory0":
-        "So, <b>what theory should can take into account to fully justify putting any effort into " + 
+        "So, <b>what theory should we take into account to help justify putting any effort into " + 
         "actually making our proposed CAPT app?</b> " +
         "Considering the goal of our application is to teach/instruct a learner about " + 
         "the correct pronunciation of an L2 word/phrase, " +
@@ -100,20 +100,25 @@ export const content = {
         "<b>improve their pronunciation</b> of some L2. We have also backed up our desire to " + 
         "start developing the application with <b>evidence of each component of the application working " +
         "in their own respective environments</b>. Finally, we <b>verified</b> that each step in the <b>process</b> " +
-        "could potentially achieve this goal of training learners to pronounce words/phrases correctly by adhering " + 
+        "could potentially help to achieve this goal of training learners to pronounce words/phrases correctly by adhering " + 
         "to the tried-and-tested <b>FPI</b>." + 
         "There are still have some decisions to be made in relation to how the development and evaluation process itself will go!",
     "eval1":
-        "In order to properly evaluate our application, two measurements we can take are: " +
-        "<b>Performance and Usability.</b> " + 
+        "<b>Learner performance</b> is one way to measure how 'successful' our app is. " + 
         "Performance may be best measured by comparing the results of our experimental " +
         "group to a control group in a pre- and post-test environment. " +
         "These results would be compared to similar CAPT applications' performances, or alternatively, " +
         "we could take the performance gains of the learners divided by the total time spent using the app of each user.",
     "eval2":
-        "",
+        "Another important measure of success is just seeing how users " +
+        "<b>feel about the app in terms of usability.</b> This can be " + 
+        "achieved through questionnaires, interviews, surveys, etc. " +
+        "<b>Good theory will only take you so far </b> if <i>nobody</i> " + 
+        "wants to the tool you made.",
     "eval3":
-        "",
+        "Once we choose one of these methods of evaluation, we can perform some " +
+        "iterative design process, improving as we go, until we reach some desired " +
+        "<b>threshold</b> of acceptabilty for performance and usability. ",
     "eval4":
         "",
 };

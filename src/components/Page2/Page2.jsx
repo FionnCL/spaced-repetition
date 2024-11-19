@@ -56,11 +56,13 @@ export default function Page2() {
 
                 <Figure
                 file={methodology1}
+                width={'70%'}
                 caption='An example of the iterative process for a spaced repetition application, taking perceived usability into account [13].'
                 />
 
                 <Figure
                 file={methodology2}
+                width={'70%'}
                 caption="An example of comparing similar CALL apps' performances (Anki + Memrise, Quizlet, Memrise, Memrise) [13]."
                 />
 

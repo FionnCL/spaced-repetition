@@ -7,7 +7,6 @@ import styles from './PageTheory.module.css'
 import Figure from '../Figure/Figure';
 
 import merril1 from '../../assets/merril.png';
-import tatl from '../../assets/tatl.png';
 
 export default function PageTheory() {
     return(
@@ -25,7 +24,7 @@ export default function PageTheory() {
                 <Figure
                 height={350}
                 file={merril1} 
-                caption='First principles of interaction.'
+                caption='The First Principles of Instruction.'
                 />
                 <Card
                 content={content.theory0}
@@ -35,11 +34,6 @@ export default function PageTheory() {
             <div className={styles.pageSection}>
                 <Card
                 content={content.theory1}
-                />
-                <Figure
-                file={tatl}
-                height={350}
-                caption='Another depiction of FPI.'
                 />
             </div>
         </div>

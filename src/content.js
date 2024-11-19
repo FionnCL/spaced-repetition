@@ -34,18 +34,18 @@ export const content = {
         "<b>Speech synthesis</b> is already utilised in language learning environments and " +
         "has shown promising potential for use in the classroom [9].",
     "pipeline0":
-        "The learner must <b>recall (principle 2)</b> the card presented to them. They may give a rating of either " + 
+        "The learner must <b>recall (activation)</b> the card presented to them. They may give a rating of either " + 
         "<i>[EASY]</i>, <i>[HARD]</i>, or <i>[NO RECALL]</i>. The answer here has no bearing on the rest of the tasks but " +
         "will effect the <b>Inter-Study Interval (ISI)</b> between the the current and future recall session. <i>[NO RECALL]</i> " +
         "will result in the card having to be recalled again before the recall session is over.",
     "pipeline1":
-        "The learner may or may not <b>listen (principle 3)</b> to the synthesised recording of the recalled " + 
+        "The learner may or may not <b>listen (demonstration)</b> to the synthesised recording of the recalled " + 
         "word or phrase. The learner has the ability to play it as many times as they wish. ",
     "pipeline2":
         "To complete the process and move on to the next card in the deck, the learner " +
-        "must correctly <b>pronounce (principle 4)</b> the card's content (one could imagine a threshold of 'correctness' being used). " +
+        "must correctly <b>pronounce (application)</b> the card's content (one could imagine a threshold of 'correctness' being used). " +
         "The entire process outlined here will " + 
-        "continue until all cards in the deck are recalled with. ",
+        "continue until all cards in the deck are recalled. ",
     "theory0":
         "So, <b>what theory should we take into account to help justify putting any effort into " + 
         "actually making our proposed CAPT app?</b> " +
@@ -53,56 +53,54 @@ export const content = {
         "the correct pronunciation of an L2 word/phrase, " +
         "we can look to the First Principles of Instruction (FPI) [12] to guide us." +
         "<ol>" +
-        "<li><b>Problem centered:</b> Give the learner a <b>desire</b> " +
+        "<li><b style='color: #245d7d'><u>Problem centered:</u></b> Give the learner a <b>desire</b> " +
             "to learn by making the tasks relevant and applicable to the real world.</li>" +
         "<br>" +
-        "<li><b>Activation:</b> Facilitate learning by making learners <b>apply</b> their " + 
+        "<li><b style='color: #213441'><u>Activation:</u></b> Facilitate learning by making learners <b>apply</b> their " + 
             "existing knowledge.</li>" +
         "<br>" +
-        "<li><b>Demonstration:</b> Give the learners <b>new knowledge</b> in order to " + 
+        "<li><b style='color: #48774b'><u>Demonstration:</u></b> Give the learners <b>new knowledge</b> in order to " + 
             "promote learning.</li>" +
         "<br>" +
-        "<li><b>Application:</b> Further develop learning through the learner " + 
+        "<li><b style='color: #649b64'><u>Application:</u></b> Further develop learning through the learner " + 
             "<b>applying this new information.</b></li>" +
         "<br>" +
-        "<li><b>Integration: </b> Foster learning by <b>integrating</b> this new knowledge into " + 
+        "<li><b style='color: #ee484a'><u>Integration:</u> </b> Foster learning by <b>integrating</b> this new knowledge into " + 
             "learners' worlds.</li>" +
         "</ol>",
     "theory1":
-        "<b>Principle 1</b> is not a huge problem for us as " +
-        "a learner will get a lot <b>further</b> speaking an L2 with better pronunciation. " + 
-        "Also, depending on the setting, there may already be some element of <b>intrinsic desire</b> " +
-        "in the learner to be better at pronouncing an L2 already." +
+        "Being <b>problem centered</b> is not a problem for us as " +
+        "a learner will get a lot <b>further</b> when speaking an L2 in the real word " + 
+        "if they have better pronunciation. " + 
         "<br>" + 
         "<br>" + 
-        "<b>Principle 2</b> is really where our application comes into play. Spaced repetition " +
-        "was basically invented to target this principle. We will see this in practice " + 
+        "<b>Activation</b> is where our application really shines. We will see this in practice " + 
         "in <i>Task 1 (Recalling a word or phrase)</i> of our app, " + 
         "and to a lesser extent <i>Task 3 (Pronouncing the word or phrase)</i>." +
         "<br>" + 
         "<br>" + 
-        "<b>Principle 3</b> is where the thought process behind <i>Task 2</i> came from. " +
-        "We are <b>showing</b> a learner the <b>correct</b> pronunciation of a word" +
+        "<b>Demonstration</b> is where the thought process behind <i>Task 2</i> came from. " +
+        "We are <b>showing</b> a learner the <b>correct</b> pronunciation of a word " +
         "using speech synthesis." +
         "<br>" + 
         "<br>" + 
-        "<b>Principle 4</b> will be covered by <i>Task 3</i>, as the user will have " +
+        "<b>Application</b> will be covered by <i>Task 3</i>, as the user will have " +
         "to <b>apply</b> what they've just learned in order to move on to the next stage. " +
         "This application will come in the form of a learner pronouncing the synthesised " +
-        "word, and having an ASR grading their pronunciation as being acceptable or not. " +
+        "word, and having an ASR grade their pronunciation as acceptable or not. " +
         "<br>" + 
         "<br>" + 
-        "<b>Principle 5</b> could be accounted for by having some sort of " +
+        "<b>Integration</b> could be achieved by having some sort of " +
         "'stats' screen at the end of each recall session so that a learner " +
-        "may reflect on their performance.",
+        "may reflect on their performance, and where exactly they went wrong.",
     "eval0":
         "We have so far decided that we will be <b>targeting learners</b> who wish to " + 
         "<b>improve their pronunciation</b> of some L2. We have also backed up our desire to " + 
-        "start developing the application with <b>evidence of each component of the application working " +
-        "in their own respective environments</b>. Finally, we <b>verified</b> that each step in the <b>process</b> " +
+        "start developing the application with <b>evidence of each component in the application working " +
+        "within their own respective environments</b>. Finally, we <b>verified</b> that each step in the <b>process</b> " +
         "could potentially help to achieve this goal of training learners to pronounce words/phrases correctly by adhering " + 
         "to the tried-and-tested <b>FPI</b>. " + 
-        "There are still some decisions to be made in relation to how the development and evaluation process itself will go!",
+        "Now we need to ask ourselves: <b>how can we reliably develop and evaluate our application?</b>",
     "eval1":
         "<b>Learner performance</b> is one way to measure how 'successful' our app is. " + 
         "Performance may be best measured by comparing the results of our experimental " +
@@ -124,6 +122,6 @@ export const content = {
         "holding up.",
     "eval4":
         "After all of the theory, designing, developing, prototyping, iterating, and " +
-        "tweaking, a functional CAPT application that achieves the goals set out at the start " +
-        "will have been created!",
+        "tweaking, we should hopefully have a functional CAPT application that satisfies " + 
+        "our expectations!",
 };

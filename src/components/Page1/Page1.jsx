@@ -184,13 +184,13 @@ export default function Page1() {
                         marginBottom: 0
                     }}>The Process</h1> 
                     <Card 
-                    interpolate={numBox(<TbHexagonNumber1Filled/>, 'var(--red-pastelle)')} 
+                    interpolate={numBox(<TbHexagonNumber1Filled/>, 'var(--yellow-pastelle)')} 
                     content={content.pipeline0}/>
                     <Card 
-                    interpolate={numBox(<TbHexagonNumber2Filled/>, 'var(--green-pastelle)')} 
+                    interpolate={numBox(<TbHexagonNumber2Filled/>, 'var(--yellow-pastelle)')} 
                     content={content.pipeline1}/>
                     <Card 
-                    interpolate={numBox(<TbHexagonNumber3Filled/>, 'var(--purple-pastelle)')} 
+                    interpolate={numBox(<TbHexagonNumber3Filled/>, 'var(--yellow-pastelle)')} 
                     content={content.pipeline2}/>
                 </div>
                 <Card interpolate={
